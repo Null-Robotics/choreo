@@ -31,6 +31,7 @@ import OverlayWaypoint from "./OverlayWaypoint";
 import FieldConstraintAddLayer from "./constraintDisplay/FieldConstraintAddLayer";
 import FieldConstraintDisplayLayer from "./constraintDisplay/FieldConstraintDisplayLayer";
 import FieldImage2024 from "./fields/FieldImage2024";
+import FTCField from "./fields/FTCField";
 
 type Props = object;
 
@@ -239,7 +240,7 @@ class FieldOverlayRoot extends Component<Props, State> {
             {/* Background */}
             {layers[ViewLayers.Field] && (
               <>
-                <FieldImage2024 />
+                <FTCField />
               </>
             )}
             {layers[ViewLayers.Grid] && <FieldGrid></FieldGrid>}
