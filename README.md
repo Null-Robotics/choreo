@@ -36,3 +36,5 @@ An example project using Choreo is available [here](https://github.com/SleipnirG
 </a>
 
 The 2024 field background was traced from the field renders provided by [MikLast](https://www.chiefdelphi.com/t/2024-crescendo-top-down-field-renders/447764).
+
+The Into the Deep field background was traced by [Juice Robotics](https://github.com/Juice-Robotics)
