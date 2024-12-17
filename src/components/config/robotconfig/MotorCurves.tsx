@@ -13,6 +13,7 @@ export const MotorCurves: Record<
   | "NEOVortex"
   | "KrakenX60"
   | "KrakenFOC"
+  | "MR_5000"
   | "CIM",
   MotorCurve
 > = {
@@ -50,6 +51,11 @@ export const MotorCurves: Record<
     name: "CIM",
     vmax: 5330 * rpm,
     kt: 2.41 / 131
+  },
+  MR_5000: {
+    name: "Modern Robotics (FTC)",
+    vmax: 6000 * rpm,
+    kt: 0.19 / 11
   }
 };
 
