@@ -10,15 +10,15 @@ export const LENGTH_M = 3.6576;
 export default class FieldImage2024 extends Component<Props, State> {
   static WIDTH_M = WIDTH_M;
   static LENGTH_M = LENGTH_M;
-  static side_scale = 1/4096*WIDTH_M;
+  static side_scale = (1 / 4096) * WIDTH_M;
   state = {};
 
   render() {
     return (
-      <g id="layer1" transform={"scale(1, -1)"}>
+      <g id="layer1" transform={"scale(1, -1) rotate(-90)"}>
         <g
           id="img"
-          transform={`translate(0,${-WIDTH_M}) scale(${FieldImage2024.side_scale}) `}
+          transform={`translate(${-WIDTH_M / 2},${-WIDTH_M / 2}) scale(${FieldImage2024.side_scale}) `}
           opacity={"100%"}
         >
           <g clip-path="url(#clip0_1_3)">

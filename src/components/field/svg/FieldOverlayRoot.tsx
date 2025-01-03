@@ -30,7 +30,7 @@ import InterpolatedRobot from "./InterpolatedRobot";
 import OverlayWaypoint from "./OverlayWaypoint";
 import FieldConstraintAddLayer from "./constraintDisplay/FieldConstraintAddLayer";
 import FieldConstraintDisplayLayer from "./constraintDisplay/FieldConstraintDisplayLayer";
-import FieldImage2024 from "./fields/FieldImage2024";
+import FieldImage2024 from "./fields/FTCField";
 import FTCField from "./fields/FTCField";
 
 type Props = object;
