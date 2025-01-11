@@ -1,3 +1,5 @@
+![Banner](./docs/media/banner.png)
+
 # Choreo
 
 [![Discord](https://img.shields.io/discord/975739302933856277?color=%23738ADB&label=Join%20our%20Discord&logo=discord&logoColor=white)](https://discord.gg/ad2EEZZwsS)
